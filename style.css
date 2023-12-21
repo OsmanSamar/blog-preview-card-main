@@ -1,0 +1,92 @@
+:root {
+  /*--Neutral--*/
+
+  --white: hsl(0, 0%, 100%);
+  --grey: hsl(0, 0%, 50%);
+  --black: hsl(0, 0%, 7%);
+
+  /*--Primary--*/
+
+  --yellow: hsl(47, 88%, 63%);
+
+  --Fontsize: 16px;
+  --font-weight: 600;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  background-color: var(--yellow);
+  padding: 2em;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--white);
+  width: 320px;
+  border-radius: 20px;
+  padding: 1.25em;
+
+  box-shadow: 5px 5px 10px 10px var(--black);
+}
+
+.card-img {
+  width: 100%;
+  display: block;
+  border-radius: 20px;
+  margin-bottom: 0.5em;
+}
+
+button {
+  background-color: var(--yellow);
+  border: none;
+  margin-right: 12em;
+  padding: 0.5em 0.5em;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: var(--Fontsize);
+  border-radius: 0.5em;
+  margin-top: 1em;
+}
+
+h5 {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.card-title {
+  margin: 0.05em;
+  margin-bottom: 0.5em;
+}
+
+.card-discription p {
+  margin-top: 0.05em;
+  margin-bottom: 0.5em;
+  color: var(--grey);
+}
+
+.card-created {
+  display: flex;
+  align-items: center;
+
+  gap: 1em;
+  margin-top: 0.5em;
+}
+
+.card-created span {
+  color: var(--black);
+  font-size: var(--Fontsize);
+  font-weight: var(--font-weight);
+}
