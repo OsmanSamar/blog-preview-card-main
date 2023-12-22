@@ -37,7 +37,7 @@ body {
   border-radius: 20px;
   padding: 1.25em;
 
-  box-shadow: 5px 5px 10px 10px var(--black);
+  box-shadow: 10px 10px 0px 1px var(--Black);
 }
 
 .card-img {
